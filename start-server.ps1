@@ -1,5 +1,5 @@
 $port = 8080
-$path = "$PSScriptRoot\materi osn"
+$path = "$PSScriptRoot\webkufakhrii"
 
 $http = [System.Net.HttpListener]::new()
 $http.Prefixes.Add("http://localhost:$port/")
